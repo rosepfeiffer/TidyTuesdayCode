@@ -30,4 +30,7 @@ plot <- ggplot(data=data,aes(x = brand,y=lightness)) +
        x = NULL,
        y = NULL,
        caption = "By @rppfeiffer | #TidyTuesday | Data: The Pudding")
+ggsave("TT330.png", plot = plot, height=5,width=7,unit="in")
+
 plot
+
